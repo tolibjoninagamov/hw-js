@@ -1,0 +1,52 @@
+body {
+  height: 97vh;
+  background-color: rgb(134, 19, 19);
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 95vh;
+  flex-wrap: wrap;
+}
+
+.card__items {
+  background-color: red;
+  padding: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .5s;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 70vh;
+}
+
+.box {
+  background-color: pink;
+  height: 100px;
+  width: 100px;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px 35px 10px 5px;
+  border-radius: 8px;
+  background-color: pink;
+  margin-top: 100px;
+}
